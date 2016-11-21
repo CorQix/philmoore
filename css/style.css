@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    background-image:url("https://static.pexels.com/photos/41170/architecture-blue-building-business-41170.jpeg");
+    background-attachment:fixed;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #00ffff;
+    padding: 32px;
+}
+
+header {
+    background-color: #59d5d8;
+    height: 150;
+    padding: 4px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000fff;
+    line-height:  50px;
+}
+
+header h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color:  #000fff;
+    
+}
+
+.main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: #818181;
+}
+
+ul.main_menu {
+    margin-top: 15px;
+}
+
+.main_menu li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size:  20px;
+}
+
+.main_menu a { 
+    text-decoration: none;
+    color: #000fff;
+    padding: 8px;
+    font-variant: Small-caps;
+}
+
+.main_menu a:hover {
+    color:  #59d5d8;
+}
